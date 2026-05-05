@@ -371,6 +371,12 @@ body{
     0 18px 42px rgba(0,0,0,.55);
 }
 
+.btn--small{
+  padding: 10px 14px;
+  font-size: 12px;
+  letter-spacing: .12em;
+}
+
 @media (prefers-reduced-motion: reduce){
   .hero__video{ display: none; }
 }
@@ -551,6 +557,16 @@ body{
 .team-card__body{
   padding: 16px 16px 18px;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-card__footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: auto;
 }
 
 .team-card__name{
@@ -852,7 +868,10 @@ body{
 }
 
 /* Offset for fixed header anchors */
-html{ scroll-behavior: smooth; }
+html{ 
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
 section{ scroll-margin-top: 84px; }
 
 @media (max-width: 560px){
