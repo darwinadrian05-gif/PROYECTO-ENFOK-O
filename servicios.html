@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enfok.o - Servicios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-header__inner">
+            <nav class="nav nav--left" aria-label="Navegación principal">
+                <a class="nav__link" href="servicios.html#lista">Servicios</a>
+                <a class="nav__link" href="equipo.html#equipo">Nuestro equipo</a>
+                <a class="nav__link" href="index.html#contacto">Contáctanos</a>
+            </nav>
+
+            <a class="brand" href="index.html#inicio" aria-label="Enfok'o - Inicio">
+                <span class="brand__ring" aria-hidden="true">
+                    <img class="brand__logo" src="img/logo.jpg" alt="">
+                </span>
+                <span class="brand__stack">
+                    <span class="brand__name">ENFOK.O</span>
+                    <span class="brand__sub">barber • grooming</span>
+                </span>
+            </a>
+
+            <div class="site-header__actions" aria-label="Acciones">
+                <a class="pill pill--ghost" href="index.html#contacto">Escríbenos</a>
+                <a class="pill pill--gold" href="index.html#citas">Reservar</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="services-page">
+        <section class="services-intro" aria-labelledby="services-title">
+            <div class="services-intro__shell">
+                <div class="services-intro__media" aria-hidden="true">
+                    <img class="services-intro__img" src="img/fade-barba.jpeg" alt="">
+                </div>
+
+                <div class="services-intro__copy">
+                    <div class="services-accent" aria-hidden="true"></div>
+                    <p class="services-intro__eyebrow">SERVICIOS</p>
+                    <h1 id="services-title" class="services-intro__title">ELEVAMOS TU ESTILO, SIN ATAJOS</h1>
+                    <p class="services-intro__text">
+                        No hacemos cortes genéricos, creamos identidad. En Enfok.o dominamos las técnicas más avanzadas
+                        para darte un acabado impecable: fades milimétricos, line ups definidos, trenzas con estilo y
+                        arreglos de barba con mucha personalidad.
+                    </p>
+                    <p class="services-intro__text">
+                        Descubre todo lo que nuestro equipo de especialistas puede hacer por tu imagen. Pide tu cita y
+                        vive la experiencia urbana de Barcelona.
+                    </p>
+                    <a class="btn btn--gold btn--double" href="#lista">Ver todos los servicios</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="lista" class="section section--alt services-section">
+            <div class="container">
+                <div class="services-title">
+                    <div class="services-accent" aria-hidden="true"></div>
+                    <p class="services-kicker">Tarifas</p>
+                    <h2 class="services-h2">Servicios que prestamos</h2>
+                    <p class="services-lead">Precios claros para que elijas lo que mejor encaje contigo.</p>
+                </div>
+
+                <div class="services-table" role="table" aria-label="Lista de servicios y precios">
+                    <div class="services-table__head" role="rowgroup">
+                        <div class="services-table__row services-table__row--head" role="row">
+                            <div class="services-table__cell" role="columnheader">Servicio</div>
+                            <div class="services-table__cell services-table__cell--right" role="columnheader">Precio</div>
+                        </div>
+                    </div>
+
+                    <div class="services-table__body" role="rowgroup">
+                        <div class="services-table__row" role="row">
+                            <div class="services-table__cell" role="cell">Corte + Fade</div>
+                            <div class="services-table__cell services-table__cell--right" role="cell">18 €</div>
+                        </div>
+                        <div class="services-table__row" role="row">
+                            <div class="services-table__cell" role="cell">Corte + Barba</div>
+                            <div class="services-table__cell services-table__cell--right" role="cell">25 €</div>
+                        </div>
+                        <div class="services-table__row" role="row">
+                            <div class="services-table__cell" role="cell">Line Up</div>
+                            <div class="services-table__cell services-table__cell--right" role="cell">10 €</div>
+                        </div>
+                        <div class="services-table__row" role="row">
+                            <div class="services-table__cell" role="cell">Barba</div>
+                            <div class="services-table__cell services-table__cell--right" role="cell">10 €</div>
+                        </div>
+                        <div class="services-table__row" role="row">
+                            <div class="services-table__cell" role="cell">Cejas</div>
+                            <div class="services-table__cell services-table__cell--right" role="cell">4 €</div>
+                        </div>
+                    </div>
+
+                    <div class="services-table__foot">
+                        <p class="services-note">* Precios de ejemplo. Me pasas tus datos y lo dejamos final.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="section">
+            <div class="container">
+                <div class="services-title">
+                    <div class="services-accent" aria-hidden="true"></div>
+                    <p class="services-kicker">Galería</p>
+                    <h2 class="services-h2">Detalles de nuestros trabajos</h2>
+                    <p class="services-lead">Dos secciones para que veas el estilo: cortes y trenzas.</p>
+                </div>
+
+                <div class="gallery">
+                    <section class="gallery__section" aria-label="Galería de cortes">
+                        <h3 class="gallery__title">Cortes</h3>
+                        <div class="gallery__grid">
+                            <figure class="gallery-card">
+                                <img class="gallery-card__img" src="img/fade-barba.jpeg" alt="Fade con barba">
+                                <figcaption class="gallery-card__cap">Fade & barba</figcaption>
+                            </figure>
+                            <figure class="gallery-card">
+                                <img class="gallery-card__img" src="img/corte-0.jpeg" alt="Corte degradado">
+                                <figcaption class="gallery-card__cap">Degradado</figcaption>
+                            </figure>
+                            <figure class="gallery-card">
+                                <img class="gallery-card__img" src="img/corte-1.jpeg" alt="Corte con degradado y perfilado">
+                                <figcaption class="gallery-card__cap">Perfilado</figcaption>
+                            </figure>
+                            <figure class="gallery-card">
+                                <img class="gallery-card__img" src="img/corte-de-niño.jpeg" alt="Corte para niño">
+                                <figcaption class="gallery-card__cap">Corte niño</figcaption>
+                            </figure>
+                            <figure class="gallery-card">
+                                <img class="gallery-card__img" src="img/decoloracion.jpeg" alt="Cliente después de un corte">
+                                <figcaption class="gallery-card__cap">Acabado final</figcaption>
+                            </figure>
+                            <figure class="gallery-card">
+                                <img class="gallery-card__img" src="img/barbero-0.jpeg" alt="Trabajo en proceso">
+                                <figcaption class="gallery-card__cap">En proceso</figcaption>
+                            </figure>
+                        </div>
+                    </section>
+
+                    <section class="gallery__section" aria-label="Galería de trenzas">
+                        <h3 class="gallery__title">Trenzas</h3>
+                        <div class="gallery__grid">
+                            <figure class="gallery-card">
+                                <img class="gallery-card__img" src="img/trenzas-0.jpg" alt="Trenzas estilo 0">
+                                <figcaption class="gallery-card__cap">Trenzas</figcaption>
+                            </figure>
+                            <figure class="gallery-card">
+                                <img class="gallery-card__img" src="img/trenzas-1.jpg" alt="Trenzas estilo 1">
+                                <figcaption class="gallery-card__cap">Diseño</figcaption>
+                            </figure>
+                            <figure class="gallery-card">
+                                <img class="gallery-card__img" src="img/trenzas-2.jpg" alt="Trenzas estilo 2">
+                                <figcaption class="gallery-card__cap">Detalle</figcaption>
+                            </figure>
+                            <figure class="gallery-card">
+                                <img class="gallery-card__img" src="img/trenzas-3.jpg" alt="Trenzas estilo 3">
+                                <figcaption class="gallery-card__cap">Patrón</figcaption>
+                            </figure>
+                            <figure class="gallery-card">
+                                <img class="gallery-card__img" src="img/trenzas-4.jpg" alt="Trenzas estilo 4">
+                                <figcaption class="gallery-card__cap">Estilo</figcaption>
+                            </figure>
+                            <figure class="gallery-card">
+                                <img class="gallery-card__img" src="img/trenzas-5.jpg" alt="Trenzas estilo 5">
+                                <figcaption class="gallery-card__cap">Acabado</figcaption>
+                            </figure>
+                            <figure class="gallery-card">
+                                <img class="gallery-card__img" src="img/trenzas-6.webp" alt="Trenzas estilo 6">
+                                <figcaption class="gallery-card__cap">Trenzas</figcaption>
+                            </figure>
+                            <figure class="gallery-card">
+                                <img class="gallery-card__img" src="img/trenzas-7.jpg" alt="Trenzas estilo 7">
+                                <figcaption class="gallery-card__cap">Diseño</figcaption>
+                            </figure>
+                            <figure class="gallery-card">
+                                <img class="gallery-card__img" src="img/trenzas-8.jpg" alt="Trenzas estilo 8">
+                                <figcaption class="gallery-card__cap">Detalle</figcaption>
+                            </figure>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <a class="footer-brand" href="index.html#inicio" aria-label="Enfok'o - Inicio">
+                <img class="footer-brand__logo" src="img/logo.jpg" alt="">
+                <span class="footer-brand__text">
+                    <span class="footer-brand__name">Enfok.o</span>
+                    <span class="footer-brand__sub">barber • grooming</span>
+                </span>
+            </a>
+
+            <div class="site-footer__copy">
+                <p>© <span data-year></span> Enfok.o. Todos los derechos reservados.</p>
+                <p class="site-footer__credit">Diseñado y programado por Darwin León.</p>
+            </div>
+
+            <div class="site-footer__social" aria-label="Redes y ubicación">
+                <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                        <path fill="currentColor" d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm6.25-.9a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z"/>
+                    </svg>
+                </a>
+                <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="TikTok">
+                    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                        <path fill="currentColor" d="M15 3h2a6 6 0 0 0 4 4v2a8 8 0 0 1-6-2.1V15a6 6 0 1 1-6-6h1v2h-1a4 4 0 1 0 4 4V3h2v6.1A8 8 0 0 0 15 11V3Z"/>
+                    </svg>
+                </a>
+                <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Ubicación">
+                    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                        <path fill="currentColor" d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7Zm0 2a5 5 0 0 0-5 5c0 3.1 3.2 7.9 5 10 1.8-2.1 5-6.9 5-10a5 5 0 0 0-5-5Zm0 3a2 2 0 1 1 0 4 2 2 0 0 1 0-4Z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <a class="whatsapp-fab" href="https://wa.me/?text=Hola%20Enfok%27o%2C%20quiero%20reservar%20una%20cita" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">
+        <svg viewBox="0 0 32 32" width="22" height="22" aria-hidden="true">
+            <path fill="currentColor" d="M19.11 17.37c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.14-.42-2.17-1.35-.8-.72-1.34-1.61-1.5-1.88-.16-.27-.02-.41.12-.55.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.29 0 1.35.99 2.66 1.13 2.84.14.18 1.95 2.98 4.73 4.18.66.29 1.18.46 1.58.59.66.21 1.27.18 1.75.11.53-.08 1.6-.65 1.83-1.27.23-.62.23-1.16.16-1.27-.07-.11-.25-.18-.52-.32ZM16.04 5.33c-5.74 0-10.4 4.66-10.4 10.4 0 1.82.47 3.6 1.36 5.17L5.11 26.67l5.93-1.86a10.37 10.37 0 0 0 4.99 1.28c5.74 0 10.4-4.66 10.4-10.4 0-5.74-4.66-10.36-10.39-10.36Zm0 19.08c-1.61 0-3.19-.43-4.58-1.25l-.33-.2-3.52 1.1 1.12-3.43-.22-.35a8.74 8.74 0 0 1-1.34-4.68c0-4.83 3.93-8.76 8.76-8.76 4.83 0 8.76 3.93 8.76 8.76 0 4.83-3.93 8.81-8.75 8.81Z"/>
+        </svg>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
