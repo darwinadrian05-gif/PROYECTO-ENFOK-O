@@ -880,4 +880,9 @@ section{ scroll-margin-top: 84px; }
   .site-header__actions{ grid-area: actions; }
   .nav{ grid-area: nav; gap: 8px; overflow-x: auto; padding-top: 10px; }
   .nav__link{ padding: 8px 10px; font-size: 12px; white-space: nowrap; }
+  .services-intro__copy .btn{
+    width: 100%;
+    justify-content: center;
+    white-space: normal;
+  }
 }
